@@ -1,3 +1,4 @@
+@import url("./partials/_font.scss");
 @media screen and (max-width: 767px) {
   h1 {
     color: purple;
@@ -13,6 +14,31 @@
     color: aqua;
   }
 }
-h1 {
-  font-weight: bolder;
+.nav {
+  background-color: #323232;
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding: 2em;
+}
+.nav__links {
+  padding-bottom: 1%;
+  padding-top: 1%;
+  margin-right: 4em;
+  margin-left: 4em;
+  font-family: Avenir;
+  font-weight: 400;
+}
+.nav__links--clicked {
+  border-bottom: 2px solid #FFFFFF;
+}
+.nav__title {
+  color: #FFFFFF;
+  font-family: Avenir;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
 }/*# sourceMappingURL=bio.css.map */
