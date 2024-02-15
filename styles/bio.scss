@@ -1,32 +1,7 @@
 @use "./partials/screen";
-@import url("./partials/_font.scss");
+@import url("./partials/font.scss");
 
-.nav {
-  background-color: #323232;
-  width: auto;
-  display: flex;
-  align-items: center;
-  padding: 2em;
-  &__links{
-    padding-bottom: 1%;
-    padding-top: 1%;
-    margin-right: 4em;
-    margin-left: 4em;
-    font-family: Avenir;
-    font-weight: 400;
-    &--clicked {
-        border-bottom: 2px solid #FFFFFF;
-
-      }
-  }
-  
-  &__title{
-    color: #FFFFFF;
-    font-family: Avenir;
-    font-weight: 700;
-  }
-}
 a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }

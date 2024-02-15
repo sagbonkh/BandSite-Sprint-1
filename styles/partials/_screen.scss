@@ -1,16 +1,139 @@
-@media screen and  (max-width: 767px){
-    h1{
-        color: purple;
+@import url("./_font.scss");
+
+@media screen and (max-width: 767px) {
+  .nav {
+    background-color: #323232;
+    width: auto;
+    align-items: center;
+    padding: 2em;
+    &__list {
+      text-align: center;
+      &__links {
+        padding-bottom: 1%;
+        padding-top: 1%;
+        padding-left: 15%;
+        padding-right: 15%;
+        font-family: "Avenir", sans-serif;
+        font-weight: 400;
+        font-size: 1.8rem;
+        &--clicked {
+          border-bottom: 2px solid #ffffff;
+        }
+      }
     }
+
+    &__title {
+      color: #ffffff;
+      font-family: 'Avenir', sans-serif;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+  .title-sect{
+    background-image: url('../../Assets/Images/hero-bio.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 50rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
 }
-@media screen and  (min-width: 768px){
-    h1{
-        color: red;
+@media screen and (min-width: 768px) {
+  .nav {
+    background-color: #323232;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    &__list {
+      display: flex;
+      &__links {
+        padding-bottom: 1%;
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-right: 1em;
+        margin-left: 1em;
+        font-family: "Avenir", sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+        &--clicked {
+          border-bottom: 2px solid #ffffff;
+        }
+      }
     }
+
+    &__title {
+      color: #ffffff;
+      font-family: "Avenir", sans-serif;
+      font-weight: 700;
+      margin-left: 10rem;
+    }
+  }
+  .title-sect{
+    background-image: url('../../Assets/Images/hero-bio.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 50rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
 }
 
-@media screen and  (min-width: 1280px){
-    h1{
-        color: aqua;
+@media screen and (min-width: 1280px) {
+  .nav {
+    background-color: #323232;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    &__list {
+      display: flex;
+      &__links {
+        padding-bottom: 1%;
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-right: 1em;
+        margin-left: 1em;
+        font-family: "Avenir", sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+        &--clicked {
+          border-bottom: 2px solid #ffffff;
+        }
+      }
     }
+
+    &__title {
+      color: #ffffff;
+      font-family: "Avenir", sans-serif;
+      font-weight: 700;
+      margin-left: 10rem;
+    }
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  .title-sect{
+    background-image: url('../../Assets/Images/hero-bio.jpg');
+    background-position: center;
+    background-size: cover;
+    overlay: #323232;
+    height: 50rem;
+    display: flex;
+    &__title{
+        color: #ffffff;
+        margin-top: 0;
+        font-size: 6rem;
+        display: flex;
+        align-items: center;
+        padding-left: 3%;
+    }
+  }
+  
+ 
 }
